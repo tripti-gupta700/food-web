@@ -1,0 +1,345 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px;
+    width: 100%;
+    height: 70px;
+
+    position: fixed;
+}
+header h1{
+    margin: 40px;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo-img{
+    left: 0;
+    display: flex;
+    border-radius: 50%;
+    padding-right: 50px;
+    padding-left: 10px ;
+    width: 50px;
+    height: 50px;
+    justify-content: left;
+    align-items: start;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+     margin: 0 5px;
+     color: white;
+     padding: 0px 50px;
+     text-decoration: none;
+}
+.hover:hover{
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    height: 1000px;
+    background-image: url(burger-french-fries-hamburger-wallpaper-preview.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main h1{
+    font-size: 70px;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding: 5px;
+    padding-top: 60px;
+    color: white;
+}
+main p{
+    margin: 20px 100px;
+    width: 450px;
+    height: 150px;
+    color: white;
+}
+.one:hover{
+    font-size: 20px;
+}
+main button{
+    width: 120px;
+    margin: 50px 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.click button{
+    
+}
+section {
+    display: flex;
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 700px;
+}
+
+.content {
+    max-width: 50%;
+}
+.content h1{
+    margin-left: 80px;
+}
+.content p{
+    margin: 80px 100px;
+    color: white;
+    width: 700px;
+}
+.image-container {
+    position: relative;
+}
+
+.image-container .circle {
+    width: 400px;
+    height: 400px;
+    background-image: url(book\ 2.jpg);
+    margin-left: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.image-container img {
+    max-width: 400px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.gfg:hover{
+    color: #111;
+    background: greenyellow;
+    box-shadow: 0 0 100px greenyellow;
+    
+}
+.order button{
+    border: 2px solid yellow;
+    color: white;
+    background-image: url(blue.jpg);
+    border-radius: 10px;
+    width: 100px;
+    padding: 7px;
+    margin-top: 550px;
+}
+.menu{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu h1{
+    margin: 0px 600px;
+}
+.flexbox{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+}
+.detail h2{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.food{
+    width: 350px;
+    height: 550px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur();
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    position: block;
+    
+}
+.food-img{
+    width: 100%;
+    padding: 0px;
+    padding-right: 0px;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.overlay{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(4, 4, 4, -6); 
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.food:hover .overlay{
+    height: 100%;
+}
+.overlay h1{
+    color: white;
+    text-align: center;
+}
+.overlay p{
+    color: white;
+    text-align: center;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    background-image: url(cute-brown-border-with-coffee-beans-shadow-background_53876-108697.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.review h2{
+    margin: 0px 600px;
+}
+.community-members{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+
+}
+.first{
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur();
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container h2{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.first-img{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    padding-right: 0px;
+    margin: 0px 35px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.first-img:hover{
+    color: #111;
+    background: black ;
+    box-shadow: 0 0 100px black ;
+
+}
+.review h1{
+    margin: 80px 100px;
+}
+.entry{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+label{
+    color: rgb(81, 39, 7);
+    font-size: 30px;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(81, 39, 7);
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 10px 10px 10px 10px rgb(81, 39, 7);
+}
+.entry button{
+    border: 2px solid rgb(81, 39, 7);
+    font-size: 20px;
+    color: white;
+    background-color: rgb(81, 39, 7);
+    border-radius: 10px;
+    width: 200px;
+    padding: 7px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.end img{
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+}
+footer h1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.end ul{
+    display: flex;
+    list-style-type: none;
+}
+.end ul li a{
+     margin: 20 5px;
+     color: black;
+     padding: 0px 50px;
+     font-size: 20px;
+     text-decoration: none;
+}
+.foot:hover{
+    font-size: 30px;
+}
